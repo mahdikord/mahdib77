@@ -224,26 +224,15 @@ function create_config( )
     sudo_users = {77750573},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+    about_text = [این بات فقط فقط توسط تیم آقا ام پی تری ساخته شده 
+    	ما برای اینکه ثابت کنیم این بات از روی هیچ سورس کپی نکرده
+    	توسط این دستور برای شما توضیح میدیم که 
+    	این بات فقط فقط یک ادمین اصلی داره 
+    	@mahdimp3 
+    	و یک ادمین فرعی 
+    	@its_mpa
+    	دارد و یگر هیچ ادمین دیگه ای ندارد
+    	وسلام
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -320,81 +309,82 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
+لیست دستورات بات
 
 !kick [username|id]
-You can also do it by reply
+حذف یک نفر از کروه 
 
 !ban [ username|id]
-You can also do it by reply
+حذف بدون بازگشت یک فرد
 
 !unban [id]
-You can also do it by reply
+در آوردن حدف بدون بازگشت 
 
 !who
-Members list
+دیدن لیست اعضا
 
 !modlist
-Moderators list
+دیدن مدیران گروه
 
 !promote [username]
-Promote someone
+مدیر کردن
 
 !demote [username]
-Demote someone
+از مدیر در آوردن 
 
 !kickme
-Will kick user
+منو از گروه حذف کن
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+عوض کردن عکس گروه
 
 !setname [name]
-Set group name
+عوض کردن اسم گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+دیدن شماره کاربری
 
 !help
+راهنمایی
 
-!lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+!lock [member|name|bots|leave]
+قفل : اعضا گروه/اسم گروه/ربات در گروه/لفت
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+آزادکردن : اعضا گروه/اسم گروه/ربات در گروه/لفت
 
 !set rules <text>
-Set <text> as rules
+{ثبت قوانین گروه {متن قانون
 
 !set about <text>
-Set <text> as about
+{ثبت موضوع گروه {متن موضوع
 
 !settings
-Returns group settings
+تنظیمات گروه
 
 !newlink
-create/revoke your group link
+ساخت لینک جدید برای گروه/تعویض لینک
 
 !link
-returns group link
+گرفتن لینک از بات
 
 !owner
-returns group owner id
+دیدن مدیر اصلی گروه
 
 !setowner [id]
-Will set id as owner
+تعیین مدیر اصلی
 
 !setflood [value]
-Set [value] as flood sensitivity
+(ساسیت ضداسپم (این عدد باید بین 5-20 باشد
 
 !stats
-Simple message statistics
+نمایش تاریخچه گروه
 
 !save [value] <text>
 Save <text> as [value]
@@ -403,27 +393,29 @@ Save <text> as [value]
 Returns text of [value]
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن : مدیران گروه/قوانین گروه/موضوع گروه
 
 !res [username]
-returns user id
+مشخصات یک نام کاربری
 "!res @username"
 
 !log
-will return group logs
+دریافت تاریخچه گروه به صورت فایل
 
 !banlist
-will return group ban list
+لیست افرادی که حذف بدون بازگشت شدند
 
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
+""توجه داشته باشید تمام دستوراد با  ! و / کار خواهند کرد""
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+""تنها مدیر اصلی گروه قادر به ادد کردن بات در گروه را دارد""
 
-*Only owner can use res,setowner,promote,demote and log commands
+""تنها مدیران و مدیر اصلی گروه قادر به انجام تغییرات در گروه هستند""
+
+""تنها مدیر اصلی میتواند کسی را ادمین و کسی را از ادمینی در بیاورد""
+ادمین های بات 
+@mahdimp3
+@its_mpa
 
 ]]
   }
