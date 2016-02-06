@@ -221,16 +221,16 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {77750573},--Sudo users
+    sudo_users = {165562299},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [این بات فقط فقط توسط تیم آقا ام پی تری ساخته شده 
     	ما برای اینکه ثابت کنیم این بات از روی هیچ سورس کپی نکرده
     	توسط این دستور برای شما توضیح میدیم که 
     	این بات فقط فقط یک ادمین اصلی داره 
-    	@mahdimp3 
+    	@mahdib9 
     	و یک ادمین فرعی 
-    	@its_mpa
+    	@mahdib6
     	دارد و یگر هیچ ادمین دیگه ای ندارد
     	وسلام
 ]],
